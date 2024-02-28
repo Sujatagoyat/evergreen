@@ -309,10 +309,7 @@
 }
 
 /* =================================== our-services=========================================== */
-.py-111 {
-    padding-bottom: 111px;
-    padding-top: 150px;
-}
+
 
 .mb-37 {
     margin-bottom: 37px;
@@ -528,6 +525,10 @@
     padding-left: 12px; */
 }
 
+.pt-50 {
+    padding-top: 50px;
+}
+
 .btn-style {
     border: 1px solid transparent;
     background: var(--fc-btngreen);
@@ -544,6 +545,10 @@
 
 }
 
+.max-w-282 {
+    max-width: 282px;
+}
+
 /* ======================================== footer =================================== */
 .max-w-410 {
     max-width: 410px;
@@ -557,9 +562,7 @@
     max-width: 412px;
 }
 
-.pt_140 {
-    padding-top: 140px;
-}
+
 
 .mb_54 {
     margin-bottom: 54px;
@@ -643,6 +646,10 @@
         border-radius: 10px;
         max-width: 267px;
     }
+
+    :root {
+        --fs-sm: 12px;
+    }
 }
 
 @media (min-width:1200px) {
@@ -710,6 +717,15 @@
 
     .max-w-410 {
         max-width: 410px;
+    }
+
+    .pt_140 {
+        padding-top: 140px;
+    }
+
+    .py-111 {
+        padding-bottom: 111px;
+        padding-top: 150px;
     }
 
 
